@@ -30,10 +30,10 @@ else:
 
 with st.sidebar:
     st.image("3D-SMART-FACTORY1-removebg-preview.png")
-    st.markdown("<h1 class='title'>~~~~ AutoYounesML ~~~~</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title'>~~~~ Auto INPT ML ~~~~</h1>", unsafe_allow_html=True)
     st.sidebar.header("Navigation : ")
     choice = st.sidebar.radio("", ["Upload Dataset", "Data Analysis", "Machine Learning Models", "Visualization of Clusters","NLP","Download the Model"])
-    st.sidebar.info("This project application helps you to explore your data and give you the best ML models automatically anf finally download it to use it after.")
+    st.sidebar.info("This project application helps you to explore your data and give you the best ML models automatically anf finally download it to use it after. This project is made by 3 Students of INPT : Younes GUENDOUL - Anas BAKRAOUI - Yassine KRIAT. ")
 
 if choice == "Upload Dataset":
     st.markdown("<h1 class='title'>Upload Your Dataset</h1>", unsafe_allow_html=True)

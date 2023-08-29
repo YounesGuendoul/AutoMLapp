@@ -29,7 +29,7 @@ else:
     df = None
 
 with st.sidebar:
-    st.image("3D-SMART-FACTORY1-removebg-preview.png")
+    st.image("https://static.tildacdn.com/tild3263-6531-4764-b532-343666323531/brain1.png")
     st.markdown("<h1 class='title'>~~~~ Auto INPT ML ~~~~</h1>", unsafe_allow_html=True)
     st.sidebar.header("Navigation : ")
     choice = st.sidebar.radio("", ["Upload Dataset", "Data Analysis", "Machine Learning Models", "Visualization of Clusters","NLP","Download the Model"])
@@ -130,5 +130,5 @@ if choice == "Download the Model":
 #https://www.onepointltd.com/wp-content/uploads/2020/03/inno2.png
 #https://img.freepik.com/vetores-gratis/coroa-de-ouro-realista-3d-ilustracao-vetorial_97886-286.jpg?size=338&ext=jpg
 #https://static.tildacdn.com/tild3263-6531-4764-b532-343666323531/brain1.png
-#3D-SMART-FACTORY1-removebg-preview.png
+
 

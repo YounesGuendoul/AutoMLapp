@@ -1,5 +1,5 @@
 # AutoMLapp
-This project is an application of automated machine learning deployed on a website using streamlit. I used pycaret to select the best model and pandas_profiling to do data analysis and data visualisation. The user should simply upload a csv file and select the type of problem and the app will select the best model to download it for after usecases. there is also a section called nlp for spell check using Transformers.
+This project is an application of automated machine learning deployed on a website using streamlit that saves time, increases Data Scientist’s productivity and automates the tasks of Data Analysis, Data Visualization, Feature Selection, Hyperparameter tuning and best ML model selection, also NLP tasks such as Documents QA and Summarization, Sentiment analysis, Spell check, Text Classification using Pdfminer, Falcon 7b, Pycaret, Plotly, LangChain, Pandas Profiling and Transformers.
 
 
 
